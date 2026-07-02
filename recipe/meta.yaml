@@ -1,5 +1,5 @@
 {% set name = "rq-dashboard" %}
-{% set version = "0.8.7" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rq_dashboard-{{ version }}.tar.gz
-  sha256: 068964cd677787586724ae71d051c4c963fdd5ea86515f1b42357bf983253951
+  sha256: 33472117abe47b793d608e60fff5d29ed84e8e5a2c13c793ea3dbfdbde52dfb6
 
 build:
   entry_points:
